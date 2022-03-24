@@ -1,0 +1,10 @@
+body{
+    font-size:22px;
+    font-family: sans-serif;
+    width:500px;
+    margin:auto;
+    background-image: url(../imagens/site.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,48 @@
+<?php
+$dia = date('d');
+$mes = date('m');
+$ano = date('y');
+
+$resul = $dia * $mes * $ano * 3;
+
+?>
+
+<html lang="pt-br">
+    <head>
+        <title> Senha Do Dia </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Alan">
+        <meta name="description" content="senha do dia">
+        <meta name="keyboards" content="html5, tecnologia, hora, calculo">
+
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <div class="principal">
+            <header class="texto">
+                <div>
+                    <h1>Senha do Dia é:</h1>
+                </div>
+            </header>
+        </div>
+        <main class="teste">
+            <section class="content-section">
+                <article>
+                    <header class="content-header">
+                        <h2>
+                            <script>
+                                var leitura ="<?php echo $resul; ?>";
+                                alert(leitura)
+                            </script>
+                        </h2>
+                    </header>
+                </article>
+            </section>
+        </main>
+        
+            <footer class="rodape">
+                <p>Copyright &copy; Alan 2022</p>
+            </footer>
+        
+    </body>
+</html>
